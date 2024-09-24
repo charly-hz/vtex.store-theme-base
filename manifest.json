@@ -12,6 +12,14 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+  "billingOptions": {
+    "type": "free",
+    "support": {
+        "email": "support@com.br",
+        "url": "https://support.com/hc/requests"
+      },
+    "availableCountries" : ["*"]
+  },
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
